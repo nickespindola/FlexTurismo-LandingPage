@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=JetBrains+Mono:wght@500&family=Parisienne&family=Poppins:wght@300;400&family=Raleway:wght@700&family=Sora:wght@500&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', 'Open Sans', sans-serif;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+
+/* ========= HEADER ========= */
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.flexcontainer{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+}
+
+header .listitems{
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+/* ========= SECTION ========= */
+.apresentacao{
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao .textoapresentacao{
+    min-height: 200px;
+}
+
+.textoapresentacao h1{
+    font-size: 3.5em;
+}
+
+.textoapresentacao p{
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.textoapresentacao a{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+
+    display: block;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 35px;
+
+    font-size: 1.5em;
+}
+
+#houses{
+    max-width: 950px;
+    min-width: 100px;
+
+}
+
+/* ========= SETA PARA BAIXO ========= */
+#seta{
+    max-width: 50px;
+    margin: auto;
+}
+
+/* ========= QUEM SOMOS ========= */
+#about{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+#about h2{
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+#about p{
+    width: 550px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+#suburb{
+    max-width: 770px;
+    min-width: 420px;
+}
+
+/* ========= SERVIÇOS ========= */
+.containerexterno{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+#services{
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+
+.listservices{
+    display: flex;
+    justify-content: space-around;
+}
+
+.listservices .itemservice{
+    text-align: center;
+}
+
+#services h2{
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+
+.itemservice a{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+
+    display: block;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    margin-top: 50px;
+
+    font-size: 1.3em;
+}
+
+.itemservice p{
+    margin-top: 50px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.itemservice img{
+    max-width: 200px;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+/* ========= TRIANGULO ========= */
+#triangulo-para-baixo {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid black;
+    margin: auto;
+}
+
+/* ========= PLANOS ========= */
+#plans{
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.listplans{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#plans h2{
+    font-size: 3em;
+    margin-bottom: 70px;
+}
+
+.itemplan{
+    /* flex: 1; */
+    border: 5px solid black;
+    /* margin-right: 100px; */
+    padding: 50px 50px;
+}
+
+.itemplan h3{
+    margin-bottom: 20px;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.itemplan h3::after{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.itemplan a{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    margin-top: 50px;
+
+    font-size: 1.3em;
+}
+
+.itemplan li{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#plans ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* ========= CONTACT ========= */
+#contact{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+#contact h2{
+    font-size: 3em;
+}
+
+.listcontact{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* #form{
+    background-color: rgba(247,93,131,255);
+    padding: 80px 10px;
+    border-radius: 20px;
+    border: 5px solid black;
+} */
+
+#form h3{
+    font-size: 2em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-top: 50px;
+}
+
+form input{
+    margin-top: 20px;
+    height: 50px;
+    border: 3px solid black;
+    font-size: 1.3em;
+    text-indent: 10px;
+}
+
+::placeholder{
+    color: rgba(247,93,131,255);
+    
+}
+
+#enviar{
+    cursor: pointer;
+}
+
+#truck{
+    max-width: 700px;
+    min-width: 350px;
+}
+
+/* ========= FOOTER ========= */
+.containerfooter{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+}
+
+.socialicon{
+    width: 30px;
+}
+
+#footer{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#social{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ========= MOBILE ========= */
+@media(max-width: 992px){
+    header li{
+        font-size: 0.7em;
+    }
+
+    .flexcontainer{
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao .textoapresentacao{
+        width: 100%;
+    }
+
+    #houses{
+        max-width: 600px;
+    }
+
+    #about{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    #about p{
+        max-width: 300px;
+        justify-content: center;
+    }
+
+    .listservices{
+        flex-direction: column;
+    }
+
+    .itemservice img{
+        margin-top: 30px;
+    }
+
+    #plans{
+        padding-bottom: 30px;
+    }
+    .listplans{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itemplan{
+        margin-bottom: 20px;
+        width: 220px;
+    }
+
+    #contact{
+        margin-bottom: 30px;
+    }
+    #contact h2{
+        margin-bottom: 20px;
+    }
+
+    .listcontact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #form h3{
+        margin-top: 20px;
+        font-size: 1.2em;
+    }
+
+    form{
+        max-width: 300px;
+        font-size: 1em;
+    }
+
+    #footer{
+        flex-direction: column-reverse;
+    }
+
+    #developer{
+        font-size: 0.8em;
+    }
+}
+

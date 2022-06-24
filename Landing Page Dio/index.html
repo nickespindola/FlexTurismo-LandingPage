@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="flexcontainer">
+            <h1>FlexTurismo</h1>
+            <ul class="listitems">
+                <li><a href="#about">Quem Somos</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#plans">Planos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="flexcontainer apresentacao">
+        <div class="textoapresentacao">
+            <h1>Flex <br>Turismo</h1>
+            <p>O melhor serviço para você!</p>
+            <a href="">Saiba Mais!</a>
+        </div>
+
+        <div>
+            <div><img id="houses" src="./assets/undraw_city_girl_ccpd.png" alt="cidade"></div>
+        </div>
+    </div>
+
+    <div>
+        <img id="seta" src="./assets/arrow-down-sign-to-navigate.png" alt="seta para baixo">
+    </div>
+
+    <div class="flexcontainer" id="about">
+        <div>
+            <h2>Quem somos</h2>
+            <p>É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao
+                olhar para seu layout. </p>
+            <p>O ponto de usar Lorem Ipsum é que ele tem uma distribuição mais ou menos normal de letras, ao contrário
+                de usar 'Conteúdo aqui, conteúdo ali', fazendo com que pareça português legível.</p>
+        </div>
+
+        <div>
+            <img id="suburb" src="./assets/undraw_Small_town_re_7mcn.png" alt="casas conjugadas">
+        </div>
+    </div>
+
+    <div class="containerexterno">
+        <div class="flexcontainer" id="services">
+            <div>
+                <h2>Serviços</h2>
+            </div>
+
+            <div class="listservices">
+                <div class="itemservice">
+                    <div><img src="./assets/icon-2.png" alt="hospedagens"></div>
+                    <p>Hospedagens</p>
+                    <a href="#">Comprar Agora</a>
+                </div>
+
+                <div class="itemservice">
+                    <div><img src="./assets/icon-1.png" alt="pacote de viagens"></div>
+                    <p>Pacotes de viagens</p>
+                    <a href="#">Comprar Agora</a>
+                </div>
+
+                <div class="itemservice">
+                    <div><img src="./assets/icon-3.png" alt="roteiros personalizados"></div>
+                    <p>Roteiros</p>
+                    <a href="#">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="triangulo-para-baixo"></div>
+
+    <div class="flexcontainer" id="plans">
+        <div>
+            <h2>Planos</h2>
+        </div>
+
+        <div class="listplans">
+            <div class="itemplan">
+                <h3>Plano 1</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                </ul>
+                <a href="#">Saiba Mais!</a>
+            </div>
+
+            <div class="itemplan">
+                <h3>Plano 2</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                </ul>
+                <a href="#">Saiba Mais!</a>
+            </div>
+
+            <div class="itemplan">
+                <h3>Plano 3</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                    <li>Área Vip</li>
+                </ul>
+                <a href="#">Saiba Mais!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flexcontainer" id="contact">
+        <div>
+            <h2>Contato</h2>
+        </div>
+
+        <div class="listcontact">
+            <div id="form">
+                <h3>Não seja tímido (a), <br> entre em contato conosco :)</h3>
+                <form method="get" action="/cadastro">
+                    <input type="text" name="name" placeholder="Nome">
+                    <input type="text" name="lastname" placeholder="Sobrenome">
+                    <input type="text" name="email" placeholder="E-mail">
+                    <input id="enviar" type="submit">
+                </form>
+            </div>
+            <div>
+                <img id="truck" src="./assets/undraw_Trip_re_f724.png" alt="Viagem de carro">
+            </div>
+        </div>
+    </div>
+
+    <footer class="containerfooter">
+        <div class="flexcontainer" id="footer">
+            <div id="developer">
+                <p>&copy; 2021 CSS Flexbox</p>
+                <p>Desenvolvido por: Nicolas Espindola</p>
+            </div>
+
+            <div id="social">
+                <p>Telefone: (xx) xxxx-xxxx</p>
+                <a href="https://www.instagram.com/nickespindola/?hl=pt-br"><img class="socialicon"
+                        src="https://cdn.iconscout.com/icon/free/png-256/instagram-1868978-1583142.png" width="30">
+                </a>
+                <a href="https://www.linkedin.com/in/nicolas-espindola-555084187/"><img class="socialicon"
+                        src="https://user-images.githubusercontent.com/92181835/161834674-440192c9-a668-4fb0-8b41-7ab4ecf23715.png"
+                        width="30">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
