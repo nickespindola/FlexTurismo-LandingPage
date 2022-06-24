@@ -11,7 +11,7 @@ Sobre a estrutura do site, há 5 divisões principais:
 - Serviços
 - Planos
 - Contato
-<br>
+
 Ao longo do desenvolvimento do projeto, houve bastante exercício das propriedades Flexbox, sendo este o primeiro trabalho que realizei com esta propriedade.
 O site também é todo responsivo, adaptado de forma eficiente para as plataformas mobile.
 
